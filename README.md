@@ -31,9 +31,9 @@ This program is a demonstration of object-oriented programming concepts included
 Credits:
 This program was developed by Group 9 as part of the Object-Oriented Programming course at BSDS. The team members are:
 
-Abdul Rehman Jamil - Team Leader
-Fahad Khalid - Developer
-Tahaa Bukhari - Lead Developer
-Ehsan Mehdi - Developer
-Waqas Zahoor - Developer
-Azan Akbar - N/A
+1. Abdul Rehman Jamil - Team Leader
+2. Fahad Khalid - Developer
+3. Tahaa Bukhari - Lead Developer
+4. Ehsan Mehdi - Developer
+5. Waqas Zahoor - Developer
+6. Azan Akbar - N/A
