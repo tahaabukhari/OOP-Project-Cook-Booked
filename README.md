@@ -4,7 +4,7 @@ It offers a super friendly and convinient User Interface and Data Storage
 Features:
 - User registration and login system
 - Recipe creation
-- Recipe viewing and management
+- Recipe viewing
 - Data persistence through file storage
 - User-specific recipe files
 - Aesthetic interface with ASCII art
