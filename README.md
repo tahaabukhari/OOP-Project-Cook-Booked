@@ -23,8 +23,9 @@ The Demo Account holds 3 stored recipes, to access them you need to enter the fo
 - If a new user is registered, the program will save his login data after successfully closing its first instance.
 
 Notes:
-Each user has their own unique recipe file, which is loaded and saved using <fstream> C++ liberary.
-The program loads class data in a <vector> and saves it in a specific .txt file.
+Each user has their own unique recipe file, which is loaded and saved using
+fstream C++ liberary.
+The program loads class data in a vector and saves it in a specific .txt file.
 The program uses ASCII art to create a visually appealing interface.
 This program is a demonstration of object-oriented programming concepts included in our course outline and is not intended for commercial use.
 
