@@ -1,0 +1,85 @@
+DEVLOG --- OOP Project Group 9 | 
+@tahaabukhari, @AbdulRehmaanRana
+---
+16/05
+Project Assigned. 
+Title: Recipe Management System.
+Description : Design a recipe management system to help users discover, save and organize recipes.
+              Impliment classes for recipes, ingredients, users and meal plans. Utilize conecepts such as
+	      constructors, member functions, access modifiers and function overloading.
+---
+24/05
+
+- Added 'recipe' class.
+- Added menu structure.
+- Added method to initialize 'recipe' using pass by refrence.
+---
+25/05
+
+- Reformed User Menu using ASCII ART.
+- Added switch statement to add functionality.
+- Added "About" option to add variation.
+- User can enter the recipe but it doesnt save anywhere 
+- Strings dont save entire paragraphs which needs working.
+---
+26/05
+
+- Added <string> liberary to use line functions.
+This fixes sentence issue as the code now stores complete lines.
+- Added 'User' class
+- Added a second login menu so the user doesnt access the main menu unless he logs in.
+this menu doesnt use a switch statement and instead uses a if-then logic to add variation as this is a school project.
+- Added <fstream> to save the recipe data to a txt file.
+Each user gets his own file with his own username hence providing a more personalized experience.
+- Removed Unused comments
+- Removed Fahad Khalid as 'Team Motivator'
+- Added a default account
+---
+27/05
+
+- Added a registration method, user can now register a new name and it makes a new file,
+if the file already exists it'll tell them to use a different name.
+- fixed errors and loopholes.
+- Reworked output menu for cleaner performeance.
+- tried to organize input in txt file, ingredients will require their own class.
+we cant really impliment any concepts from inhertance in this project.
+---
+28/05
+
+- implimented inheritence by creating a seperate class for userlogin method, attempted to make a subclass for recipe but there arent much options.
+instead of making a subclass for recipe, ive made mealplan as the parent class with recipe itself as child class, this way it can inherit the category 
+from its parent while the program maintains functionality.
+- Userlogin has its own subclass which inherits data from main User class.
+ 
+
+- something went wrong and now program doesnt read our previously stored data from file...
+each instance ends up clearning the file and starts the program from scratch.
+
+- tried a fix for the file save issue, it saves them as intended but still doesnt load them on a new instance even if they are pre recorded.
+Seems like arrays cant save user data from the previous instance.
+- Added <vector> liberary to fix the array problem.
+- Program works exactly as intended.
+
+- Tested
+- Added comments
+since i wont be the one presenting this project, adding comments so the presenter can present it easily is a good approach,
+itll also help to clearify whats happening in the code.
+- Added Ascii emojis to maker interface more aesthetic ?
+
+- Second Test
+- Found string bug, which can be fixed using <limit> liberary.
+however the liberary seems to conflict with the existing code so the issue is unsolvable for now.
+
+- Ingredient Count is unsuitable for program, hence switched with a list of
+ingredients. as this is a last minute change, the variable is still named ingredientCount.
+
+- Reworked defualt user as Admin with Password BSDS
+- Added 3 default recipes for the demo user Admin.
+- fixed cahnges in ingredient attribute from int to string.
+- Added files to repository.
+-----
+29/05
+
+Project ready for submission.
+
+
