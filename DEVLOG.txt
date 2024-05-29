@@ -1,6 +1,5 @@
-DEVLOG --- OOP Project Group 9 | 
-@tahaabukhari, @AbdulRehmaanRana
----
+DEVLOG --- OOP Project Group 9
+------------------------------
 16/05
 Project Assigned. 
 Title: Recipe Management System.
@@ -9,38 +8,43 @@ Description : Design a recipe management system to help users discover, save and
 	      constructors, member functions, access modifiers and function overloading.
 ---
 24/05
+- Held Meeting for Project Design and Conformation.
+Everyone except Azan Akbar was present.
 
+- Project Name "Cook Booked!" set by Abdulrehman
 - Added 'recipe' class.
 - Added menu structure.
 - Added method to initialize 'recipe' using pass by refrence.
 ---
 25/05
-
 - Reformed User Menu using ASCII ART.
 - Added switch statement to add functionality.
 - Added "About" option to add variation.
-- User can enter the recipe but it doesnt save anywhere 
-- Strings dont save entire paragraphs which needs working.
+
+- found an error: User can enter the recipe but it doesnt save anywhere 
+- found an error: Strings dont save entire paragraphs which needs working.
 ---
 26/05
 
 - Added <string> liberary to use line functions.
 This fixes sentence issue as the code now stores complete lines.
+
 - Added 'User' class
 - Added a second login menu so the user doesnt access the main menu unless he logs in.
 this menu doesnt use a switch statement and instead uses a if-then logic to add variation as this is a school project.
 - Added <fstream> to save the recipe data to a txt file.
 Each user gets his own file with his own username hence providing a more personalized experience.
 - Removed Unused comments
-- Removed Fahad Khalid as 'Team Motivator'
 - Added a default account
 ---
 27/05
 
 - Added a registration method, user can now register a new name and it makes a new file,
 if the file already exists it'll tell them to use a different name.
+- found registeration error.
 - fixed errors and loopholes.
 - Reworked output menu for cleaner performeance.
+
 - tried to organize input in txt file, ingredients will require their own class.
 we cant really impliment any concepts from inhertance in this project.
 ---
@@ -49,6 +53,7 @@ we cant really impliment any concepts from inhertance in this project.
 - implimented inheritence by creating a seperate class for userlogin method, attempted to make a subclass for recipe but there arent much options.
 instead of making a subclass for recipe, ive made mealplan as the parent class with recipe itself as child class, this way it can inherit the category 
 from its parent while the program maintains functionality.
+
 - Userlogin has its own subclass which inherits data from main User class.
  
 
@@ -79,7 +84,23 @@ ingredients. as this is a last minute change, the variable is still named ingred
 - Added files to repository.
 -----
 29/05
-
 Project ready for submission.
+
+---------------------------------------------------
+Team Contributions
+
+- AbdulRehman Jamil: Main Debugger and Team Leader, sugggested 'about' option in usermenu, Found and fixed string to file issue using <string> cin.ignore() , Tested and Debugged final main file, 
+Found ingredientcount issue and removed it, helped create usermenu, styled user interface, suggested methods for inheritance, suggested <vector> for storing classes, is resposible for presentation.
+
+- Fahad Khalid: Devolper, helped create pass by reference method for recipe class, tested and debugged user menu operations, suggested user class members.
+
+- tahaabukhari: Lead Devolper: responsible for program design and completion, created program and posted it to github along with its relevent files.
+
+- Ehsan Mehdi: Devolper, tested and found and fixed string operation issue using <string> liberary. helped debug initial code, suggested design ideas for code structure, suggested class members for recipe class
+
+- Waqas zahoor: devolper, suggested recipe class members, added get/set methods for user class.
+
+- Azan Akbar: didnt contribute.
+
 
 
