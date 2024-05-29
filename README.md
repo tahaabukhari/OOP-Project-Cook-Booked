@@ -1,5 +1,5 @@
 Cook Booked! is a recipe management system programmed in C++ that allows users to create and store thier own recipes using a C++ compiler.
-It offers a super friendly and convinient User Interface and Data Storage
+It offers a super friendly and convinient User Interface with Data Storage
 
 Features:
 - User registration and login system
@@ -16,6 +16,7 @@ The Demo Account holds 3 stored recipes, to access them you need to enter the fo
     Password: BSDS
 
 - Once logged in, you will be presented with a User Menu where you can create a new recipe, view existing recipes, view credits, or exit the program.
+- To Select an option, just enter the respective number in your console window.
 - To create a new recipe, select option 1 and follow the prompts to enter recipe details.
 - To view existing recipes, select option 2 and browse through your recipe list.
 - To view credits, select option 3 and view the program credits.
