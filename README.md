@@ -34,7 +34,7 @@ Credits:
 This program was developed by Group 9 as part of the Object-Oriented Programming course at BSDS. The team members are:
 
 1. Abdul Rehman Jamil - Team Leader
-2. Fahad Khalid - Team Nigga
+2. Fahad Khalid - Team Mascot
 3. Tahaa Bukhari - Lead Developer
 4. Ehsan Mehdi - Developer
 5. Waqas Zahoor - Developer
